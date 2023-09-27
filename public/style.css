@@ -106,8 +106,11 @@ nav {/*pushes the navigation toggle away and after you click on humberger it bri
     color: var(--clr-accent);
 }
 
-.nav-open{
-    
+.nav-open .nav{
+    transform: translateX(0)
+}
+.nav-open .nav-toggle{
+    position:fixed
 }
 
 .hamburger{
