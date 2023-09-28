@@ -151,6 +151,17 @@ nav {/*pushes the navigation toggle away and after you click on humberger it bri
     opacity:0;
 }
 
+.redirect-button{
+    display: inline-block;
+    background-color: #7b38d8;
+    padding: 10px;
+    width: 50;
+    color: #ffffff;
+    text-align: center;
+    border: 2px double #cccccc; /* add this line */
+    border-radius: 10px; /* add this line */
+    font-size: 10px; /* add this line */
+}
 /*  Intro section  */
 
 .intro {
