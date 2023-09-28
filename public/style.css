@@ -139,6 +139,18 @@ nav {/*pushes the navigation toggle away and after you click on humberger it bri
 .hamburger::before { top: 6px; }
 .hamburger::after { bottom: 6px; }
 
+.nav-open .hambuerger{
+    transform: rotate (.625turn);
+}
+
+.nav-open .hamburger::before{
+    transform: rotate(90deg) translateX(-6px);
+}
+
+.nav-open .hamburger::after {
+    opacity:0;
+}
+
 /*  Intro section  */
 
 .intro {
@@ -206,3 +218,20 @@ opacity:0.25;
     margin: 2em 0 0;
     padding: 0;
 }
+
+html{
+    scroll-behavior: smooth  ;
+}
+
+.portfolio-item-individual {
+    padding: 0 2em 2em;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.portfolio-item-individual p { /*style the paragraphs inside of this class*/
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
